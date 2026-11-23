@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Dépendances et caches
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# Système / éditeur
+.DS_Store
+.idea/
+.vscode/
+.Rhistory
